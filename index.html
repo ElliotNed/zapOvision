@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        
+        <!-- Love ya like a sister font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- #region rightPanel-->
+        <img src="assets/img/tv/TV.png" id="tv">
+        <img src="assets/img/placeholder/noiseGif.gif" id="noise">
+
+        <a id="powerButton" href="quickVersion.html"> <img class ="onHover" src="assets/img/tv/onHover/hoverPower.png"> </a>
+        
+        <article id="radioBar"> <img src="assets/img/tv/radio/needle.png" id="radioNeedle"> </article>
+        <img src="assets/img/tv/radio/wheel.png" id="radioWheel">
+
+        <article id="linkButtonsContainer">
+            <a class="linkButtons" id="itchLink"> <img class="onHover" src="assets/img/tv/onHover/hoverItch.png"> <img class="unavailable" src="assets/img/tv/unavailable/noItch.png"> </a>
+            <a class="linkButtons" id="gitLink"> <img class="onHover" src="assets/img/tv/onHover/hoverCode.png"> <img class="unavailable" src="assets/img/tv/unavailable/noCode.png"> </a>
+            <a class="linkButtons" id="playLink"> <img class="onHover" src="assets/img/tv/onHover/hoverPlay.png"> <img class="unavailable" src="assets/img/tv/unavailable/noPlay.png"> </a>
+        </article>
+        <!-- #endregion-->
+
+        <article class="tvScreen">
+            
+            <!-- #region fullScreenProjects-->
+            <section id="fullscreenProjects">
+                
+                <!-- example
+                <div id="dummyProj_full" class="gridContainer">
+                    <h2> titre </h2>
+
+                    <div class="desc">
+                        <p>
+                            desc
+                        <p> Points importants: Unity, C#</p>
+                    </div>
+
+                    <div class="screenshots">
+                        <img src="assets/img/JW/screenshot.png">
+                    </div>
+                </div>
+                
+                -->
+                <!-- SoloProj-->
+                <div id="TWS_full" class="gridContainer">
+                    <h2> zap O vision </h2>
+                    
+                    <div class="desc">
+                        <p>
+                            Ce projet est le site web de mon portfolio. On y regarde mes projets au travers de la zapOvision, une télé avec laquelle on peut intéragir via ses boutons et le scroll de la souris. Ce projet m'a permis de développer mes compétences en html et css ainsi que d'apprendre à utiliser le javascript.
+                        </p>
+                        <p> Points importants: HTML, CSS, JavaScript</p>
+                    </div>
+
+                    <div class="screenshots">
+                        <img src="assets/img/TWS/zapOvisionLOGO.png">
+                    </div>
+                    
+                </div>
+                <div id="SD_full" class="gridContainer">
+                    <h2> It's a Sharky Day </h2>
+
+                    <div class="desc">
+                        <p>
+                            Ce jeu est mon premier gros projet en C#. Cette expérience m’a permis de prendre
+                            en main Unity et d’utiliser les fonctionnalités du moteur ainsi que de créer mes
+                            propres assets 2D avec Gimp.
+                        </p>
+                        <p> Points importants: Unity, C#, UI, Animator, Gimp</p>
+                    </div>
+
+                    <div class="screenshots">
+                        <img src="assets/img/SD/screenshot.png">
+                    </div>
+                </div>
+                <div id="JW_full" class="gridContainer">
+                    <h2> Just Waves </h2>
+
+                    <div class="desc">
+                        <p>
+                            J’ai programmé ce jeu en python en utilisant PyGame.
+
+                            Ce projet m’a permis d’apprendre la programmation orientée objet.
+
+                            Pour ce projet, j’avais comme but de tout faire moi même sauf les sons
+                            donc j’ai appris beaucoup de choses en faisant mon propre système de
+                            UI, de collision, de rendu de texte en dessinant ma propre police.
+                        </p>
+                        <p> Points importants: Python, PyGame</p>
+                    </div>
+
+                    <div class="screenshots">
+                        <img src="assets/img/JW/screenshot.png">
+                        <img src="assets/img/JW/screenshot2.png">
+                    </div>
+                </div>
+                
+                <!-- GameJams/NSI-->
+                <div id="IAQ_full" class="gridContainer">
+                    <h2> IA quoi </h2>
+
+                    <div class="desc">
+                        <p>
+                            Ce jeu a été réalisé pour l'édition 2025 de la scientific game jam à Toulouse.
+                            Cette jam a pour but de gamifier la thèse d'un doctorant pour ensuite présenter
+                            le jeu au public de la cité de l'espace.
+                        </p>
+                        <p> Points importants: Unity, C# </p>
+                    </div>
+
+                    <div class="screenshots">
+                        <img src="assets/img/IAQ/IAQuoiDemo.gif">
+                    </div>
+                </div>
+                <div id="BA_full" class="gridContainer">
+                    <h2> Blown Away </h2>
+
+                    <div class="desc">
+                        <p>
+                            Ce jeu a été réalisé pour la Global Game Jam 2025 à Toulouse en 2 jours.
+                        </p>
+                        <p> Points importants: Unity, C#</p>
+                    </div>
+
+                    <div class="screenshots">
+                        <img src="assets/img/BA/screenshot.png">
+                    </div>
+                </div>
+                <div id="KTF_full" class="gridContainer">
+                    <h2> Kill The Francis </h2>
+
+                    <div class="desc">
+                        <p>
+                            J’ai fait ce jeu pendant un week end en équipe de 3 pour la microjam 29.
+                            J’ai appris à utiliser l’object pooling pour optimiser les performances de la foule.
+                        </p>
+                        <p> Points importants: Unity, C#</p>
+                    </div>
+
+                    <div class="screenshots">
+                        <img src="assets/img/KTF/screenshot.png">
+                    </div>
+                </div>
+                <div id="BG_full" class="gridContainer">
+                    <h2> Bubble Gnome </h2>
+
+                    <div class="desc">
+                        <p>
+                            J’ai produit ce jeu durant la gamejam de l’Enjmin (Enjam) en équipe avec des
+                            étudiants de masters en 3 jours.
+                        </p>
+                        <p> Points importants: Unity, C#</p>
+                    </div>
+
+                    <div class="screenshots">
+                        <img src="assets/img/BG/logo.png">
+                    </div>
+                </div>
+                <div id="FK_full" class="gridContainer">
+                    <h2> Application Flask </h2>
+
+                    <div class="desc">
+                        <p>
+                            C’est un projet de NSI dans lequel on a créé une base de données avec laquelle on
+                            peut interagir via une interface web. Pour ce projet, notre équipe a décidé d’utiliser
+                            Flask afin de répertorier les bonus, ennemis et armes de chaque niveau de la
+                            première campagne de Doom 1993.
+                        </p>
+                        <p> Points importants: python, flask, html, css, sql, bases de données</p>
+                    </div>
+
+                    <div class="screenshots">
+                        <img src="assets/img/Flask/screenshot.png">
+                    </div>
+                </div>
+
+                <!-- Proto-->
+                <div id="4hRun_full" class="gridContainer">
+                    <h2> 4H Runner </h2>
+
+                    <div class="desc">
+                        <p>
+                            C'est un jeu que j'ai fait pour m'entrainer à prototyper rapidement un projet. Ce runner a été réalisé en 4h.
+                        <p> Points importants: Unity, C#</p>
+                    </div>
+
+                    <div class="screenshots">
+                        <img src="assets/img/4hRun/runnerDemo.gif">
+                    </div>
+                </div>
+                <div id="SRP_full" class="gridContainer">
+                    <h2> Unity SRP </h2>
+
+                    <div class="desc">
+                        <p>
+                            Ce projet m'a permis de mieux comprendre le fonctionnement des Scriptable Render Pipeline de Unity en créant le mien.
+                            J'ai pu mettre en place mon render pipeline ainsi qu'écrire des shader en HLSL réagissant aux directional lights.
+                            Ce projet n'est pas encore terminé, je suis en train de travailler sur les ombres.
+                        </p>
+                        <p> Points importants: Unity, C#, HLSL</p>
+                    </div>
+
+                    <div class="screenshots">
+                        <img src="assets/img/SRP/screenshot.png">
+                    </div>
+                </div>
+                
+            </section>
+            <!-- #endregion-->
+
+            <section class="channels" id="presentation-channel">
+                <img src="assets/img/tv/zapOvision.png">
+                <div>
+                    <p>La zapOvision est une télévision révolutionnaire! Située dans votre navigateur, elle vous permettra de voir tous mes projets!</p>
+                    <p>Utilisez votre souris comme une télécommande! Scrollez pour parcourir les 3 chaines de la zapOvison et pointez sur un projet pour l'agrandir!</p>
+                    <p>Cette merveille comprend aussi des boutons qui vous permettront d'aller voir les pages itch et le code de mes projets mais aussi d'éteindre la télé si vous en avez eu assez!</p>
+                </div>
+                <div>
+                    <b> Pour une version simplifiée du portfolio, éteignez la télé en appuyant sur le bouton power en bas à droite </b>
+                </div>
+            </section>
+
+            <section class="channels">
+                <img src="assets/img/Titles/solo.gif" alt="solo Title" class="channel-title">
+                <div class="scroll-media">
+                    <div class="elements" id="TWS" onmouseover="showProject(id, true)" onmouseout="showProject(id, false)"> <img src="assets/img/TWS/logo.png"></div>
+                    <div class="elements" id="SD" onmouseover="showProject(id, true)" onmouseout="showProject(id, false)"> <img src="assets/img/SD/logo.png"></div>
+                    <div class="elements" id="JW" onmouseover="showProject(id, true)" onmouseout="showProject(id, false)"> <img src="assets/img/JW/logo.png"></div>
+                </div>
+            </section>
+
+            <section class="channels">
+                <img src="assets/img/Titles/equipe.gif" alt="team Title" class="channel-title">
+                <div class="scroll-media">
+                    <div class="elements" id="IAQ" onmouseover="showProject(id, true)" onmouseout="showProject(id, false)"> <img src="assets/img/IAQ/logo.png"></div>
+                    <div class="elements" id="BA" onmouseover="showProject(id, true)" onmouseout="showProject(id, false)"> <img src="assets/img/BA/logo.png"></div>
+                    <div class="elements" id="KTF" onmouseover="showProject(id, true)" onmouseout="showProject(id, false)"> <img src="assets/img/KTF/logo.png"></div>
+                    <div class="elements" id="BG" onmouseover="showProject(id, true)" onmouseout="showProject(id, false)"> <img src="assets/img/BG/logo2.png"></div>
+                    <div class="elements" id="FK" onmouseover="showProject(id, true)" onmouseout="showProject(id, false)"> <img src="assets/img/Flask/logo.png"></div>
+                </div>
+            </section>
+
+            <section class="channels">
+                <img src="assets/img/Titles/prototype.gif" alt="prototype Title" class="channel-title">
+                <div class="scroll-media">
+                    <div class="elements" id="SRP" onmouseover="showProject(id, true)" onmouseout="showProject(id, false)"> <img src="assets/img/SRP/screenshot.png"></div>
+                    <div class="elements" id="4hRun" onmouseover="showProject(id, true)" onmouseout="showProject(id, false)"> <img src="assets/img/4hRun/logo.png"></div>
+                    <div class="elements" id="SRP" onmouseover="showProject(id, true)" onmouseout="showProject(id, false)"> <img src="assets/img/SRP/screenshot.png"></div>
+                </div>
+            </section>
+
+        </article>
+    </body>
+    <script type="text/javascript" src="code.js"></script>
+</html>
